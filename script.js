@@ -26,6 +26,7 @@ paperButton.addEventListener('click', e => {
 scissorsButton.addEventListener('click', e => {
     playRound(winStates[2], winStates[Math.floor(Math.random() * 3)]);
 });
+
 //Single round of RPS
 
 function playRound(playerSelection, computerSelection) {
@@ -80,4 +81,3 @@ function playRound(playerSelection, computerSelection) {
         }
     
 }
-
